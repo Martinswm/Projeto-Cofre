@@ -10,6 +10,22 @@ body {
     height: 100vh;
 }
 
+.bt-ini {
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+.bt-ini:hover {
+    background-color: #000000;
+    transition: 1s;
+}
+
 .container {
     display: grid;
     place-items: center;
@@ -37,6 +53,6 @@ button {
 
 }
 
-button:hover {
+.button:hover {
     background-color: #000000;
 }
